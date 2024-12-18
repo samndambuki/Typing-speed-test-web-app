@@ -77,32 +77,6 @@ function App() {
     }
   };
 
-  // Function to clear scores
-  //   const clearScores = async () => {
-  //     if (window.confirm("Are you sure you want to clear all scores?")) {
-  //       try {
-  //         await axios.delete("http://localhost:5000/scores");
-  //         setScores([]); // Clear the local state
-  //         alert("All scores have been cleared!");
-  //       } catch (error) {
-  //         console.error("Error clearing scores:", error);
-  //       }
-  //     }
-  //   };
-
-  // Function to clear scores
-  //   const clearScores = async () => {
-  //     if (window.confirm("Are you sure you want to clear all scores?")) {
-  //       try {
-  //         await axios.delete("http://localhost:5000/scores");
-  //         setScores([]); // Clear the local scores state immediately
-  //         alert("All scores have been cleared!");
-  //       } catch (error) {
-  //         console.error("Error clearing scores:", error);
-  //       }
-  //     }
-  //   };
-
   // Reset game
   const resetGame = () => {
     setTypedWords("");
